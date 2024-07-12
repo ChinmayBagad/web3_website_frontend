@@ -23,3 +23,9 @@
     @apply px-7 py-3 bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] p-3 rounded-3xl;
   }
 }
+
+@layer components {
+  .black-tag {
+    @apply bg-black;
+  }
+}
