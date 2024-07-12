@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Developers from "./components/Developers";
+import Subscribe from "./components/Subscribe";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <About />
       <Developers />
+      <Subscribe />
     </div>
   );
 }
